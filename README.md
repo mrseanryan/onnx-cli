@@ -113,7 +113,8 @@ OUTPUT:
 
 ## References
 
-- [ONNX versions](https://github.com/onnx/onnx/blob/main/docs/Versioning.md)
+- [ONNX versions - official spec](https://github.com/onnx/onnx/blob/main/docs/Versioning.md)
+- [Blog post - with more tools](https://antipatterns.blogspot.com/2022/11/versions-and-properties-of-onnx-machine.html)
 
 ## Licence
 
