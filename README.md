@@ -1,6 +1,6 @@
 # onnx-tools README
 
-Small command line tools in Python for working with ONNX files:
+Command line tools in Python for working with ONNX files:
 
 - Create a simple ONNX file with given opset version. This can used for testing parsing, consuming and executing a ONNX file.
 - Dump out a summary of the properties of an ONNX file
