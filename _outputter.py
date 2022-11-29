@@ -6,7 +6,7 @@ class Outputter:
     """Outputs properties in different formats"""
 
     def __init__(self):
-        self.properties = []
+        self.properties = dict()
 
     def add_property(self, name, value):
         name = name.replace(" ", "_")
@@ -14,7 +14,7 @@ class Outputter:
         name = name.replace(")", "")
         if not _number_helper.is_numeric(value):
             value = str(value)
-        self.properties.append({name: value})
+        self.properties[name] = value
 
     def to_json(self):
         data = dict()

@@ -67,47 +67,21 @@ python3 describe_onnx.py ~/temp/my-model.onnx --json
 OUTPUT:
 ```
 {
-  "properties": [
-    {
-      "ONNX_file": "./temp/new_onnx_1.onnx"
-    },
-    {
-      "file_size_KB": 6
-    },
-    {
-      "described-with-onnx-library-version": "1.12.0"
-    },
-    {
-      "domain": ""
-    },
-    {
-      "ir_version": 8
-    },
-    {
-      "opset_import": "[version: 17\n]"
-    },
-    {
-      "producer_name": "onnx-cli"
-    },
-    {
-      "producer_version": ""
-    },
-    {
-      "IR_VERSION_FIELD_NUMBER": 1
-    },
-    {
-      "OPSET_IMPORT_FIELD_NUMBER": 8
-    },
-    {
-      "PRODUCER_VERSION_FIELD_NUMBER": 3
-    },
-    {
-      "MODEL_VERSION_FIELD_NUMBER": 5
-    },
-    {
-      "model_version": 0
-    }
-  ]
+  "properties": {
+    "ONNX_file": "./temp/new_onnx_1.onnx",
+    "file_size_KB": 6,
+    "described-with-onnx-library-version": "1.12.0",
+    "domain": "",
+    "ir_version": 8,
+    "opset_import": "[version: 17\n]",
+    "producer_name": "onnx-cli",
+    "producer_version": "",
+    "IR_VERSION_FIELD_NUMBER": 1,
+    "OPSET_IMPORT_FIELD_NUMBER": 8,
+    "PRODUCER_VERSION_FIELD_NUMBER": 3,
+    "MODEL_VERSION_FIELD_NUMBER": 5,
+    "model_version": 0
+  }
 }
 ```
 
