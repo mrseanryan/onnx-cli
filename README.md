@@ -93,6 +93,14 @@ OUTPUT:
 python3 update_map_ir-opset_to_onnx-version.py
 ```
 
+OUTPUT:
+```
+Downloading file from https://raw.githubusercontent.com/onnx/onnx/main/docs/Versioning.md...
+[done]
+Writing 19 ONNX versions to data/onnx-versions.json ...
+[done]
+```
+
 #### map_ir_and_opset-ai-onnx_to_onnx_version.py
 
 ```
@@ -102,6 +110,16 @@ python3 map_ir_and_opset-ai-onnx_to_onnx_version.py 7 13
 OUTPUT:
 ```
 ONNX version 1.8.0
+```
+
+Example of looser match, by IR version and an opset version that is lower than the max supported for that ONNX version:
+```
+python3 map_ir_and_opset-ai-onnx_to_onnx_version.py 8 11
+```
+
+OUTPUT:
+```
+ONNX version 1.10.0
 ```
 
 ## References
