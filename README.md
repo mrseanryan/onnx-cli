@@ -15,6 +15,8 @@ Command line tools in Python for working with ONNX files:
 |---|---|---|
 | `create_example_onnx_with_version.py` | Create a simple ONNX file with given opset version. This can used for testing parsing, consuming and executing a ONNX file. | `python3 create_example_onnx_with_version.py <output file path> <general opset version>` |
 | `describe_onnx.py` | Dump out a summary of the properties of an ONNX file. Properties include: general opset version, IR version, file size, producer, producer version. Output can also be in JSON format. | `python3 describe_onnx.py <onnx file path> [--json]` |
+| `map_ir_and_opset-ai-onnx_to_onnx_version.py` | Takes an IR version and opset version (for the 'ai.onnx' domain) and maps that to the closest ONNX version. | `python3 map_ir_and_opset-ai-onnx_to_onnx_version <IR version> <opset version>` |
+| `update_map_ir-opset_to_onnx-version.py` | Updates the map that is used by `map_ir_and_opset-ai-onnx_to_onnx_version.py` by downloading a small markdown file from the onnx github repository. | `python3 update_map_ir-opset_to_onnx-version.py` |
 
 ### Example usage with output
 
@@ -83,6 +85,23 @@ OUTPUT:
     "model_version": 0
   }
 }
+```
+
+#### update_map_ir-opset_to_onnx-version.py
+
+```
+python3 update_map_ir-opset_to_onnx-version.py
+```
+
+#### map_ir_and_opset-ai-onnx_to_onnx_version.py
+
+```
+python3 map_ir_and_opset-ai-onnx_to_onnx_version.py 7 13
+```
+
+OUTPUT:
+```
+ONNX version 1.8.0
 ```
 
 ## References

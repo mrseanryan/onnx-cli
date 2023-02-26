@@ -1,0 +1,97 @@
+[
+  {
+    "onnx_version": "1.0",
+    "ir_version": "3",
+    "opset_version_ai_onnx": "1"
+  },
+  {
+    "onnx_version": "1.1",
+    "ir_version": "3",
+    "opset_version_ai_onnx": "5"
+  },
+  {
+    "onnx_version": "1.1.2",
+    "ir_version": "3",
+    "opset_version_ai_onnx": "6"
+  },
+  {
+    "onnx_version": "1.2",
+    "ir_version": "3",
+    "opset_version_ai_onnx": "7"
+  },
+  {
+    "onnx_version": "1.3",
+    "ir_version": "3",
+    "opset_version_ai_onnx": "8"
+  },
+  {
+    "onnx_version": "1.4.1",
+    "ir_version": "4",
+    "opset_version_ai_onnx": "9"
+  },
+  {
+    "onnx_version": "1.5.0",
+    "ir_version": "5",
+    "opset_version_ai_onnx": "10"
+  },
+  {
+    "onnx_version": "1.6.0",
+    "ir_version": "6",
+    "opset_version_ai_onnx": "11"
+  },
+  {
+    "onnx_version": "1.7.0",
+    "ir_version": "7",
+    "opset_version_ai_onnx": "12"
+  },
+  {
+    "onnx_version": "1.8.0",
+    "ir_version": "7",
+    "opset_version_ai_onnx": "13"
+  },
+  {
+    "onnx_version": "1.8.1",
+    "ir_version": "7",
+    "opset_version_ai_onnx": "13"
+  },
+  {
+    "onnx_version": "1.9.0",
+    "ir_version": "7",
+    "opset_version_ai_onnx": "14"
+  },
+  {
+    "onnx_version": "1.10.0",
+    "ir_version": "8",
+    "opset_version_ai_onnx": "15"
+  },
+  {
+    "onnx_version": "1.10.1",
+    "ir_version": "8",
+    "opset_version_ai_onnx": "15"
+  },
+  {
+    "onnx_version": "1.10.2",
+    "ir_version": "8",
+    "opset_version_ai_onnx": "15"
+  },
+  {
+    "onnx_version": "1.11.0",
+    "ir_version": "8",
+    "opset_version_ai_onnx": "16"
+  },
+  {
+    "onnx_version": "1.12.0",
+    "ir_version": "8",
+    "opset_version_ai_onnx": "17"
+  },
+  {
+    "onnx_version": "1.13.0",
+    "ir_version": "8",
+    "opset_version_ai_onnx": "18"
+  },
+  {
+    "onnx_version": "1.13.1",
+    "ir_version": "8",
+    "opset_version_ai_onnx": "18"
+  }
+]
